@@ -5,6 +5,7 @@ import {
   CardContent,
   CardActions,
   Button,
+  Fab,
   Typography,
 } from '@mui/material';
 import room from '../assets/images/room.png';
@@ -26,8 +27,13 @@ const ImageCard = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size='small'>Share</Button>
-        <Button size='small'>Learn More</Button>
+        <Button size='small' variant='contained'>
+          Share
+        </Button>
+        <Fab size='small'>Learn More</Fab>
+        <Fab size='small' variant='extended' aria-label='add' color='secondary'>
+          Learn More
+        </Fab>
       </CardActions>
     </Card>
   );
