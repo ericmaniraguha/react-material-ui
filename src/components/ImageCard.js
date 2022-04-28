@@ -12,7 +12,7 @@ import room from '../assets/images/room.png';
 
 const ImageCard = () => {
   return (
-    <Card sx={{ maxWidth: 345, mt: 4, ml: 5 }}>
+    <Card sx={{ maxWidth: 455, mt: 4, ml: 5 }}>
       <CardMedia component='img' alt='green iguana' height='140' image={room} />
       <CardContent>
         <Typography gutterBottom variant='h5' component='div'>
@@ -33,6 +33,9 @@ const ImageCard = () => {
         <Fab size='large'>Learn More</Fab>
         <Fab size='small' variant='extended' aria-label='add' color='secondary'>
           Learn More
+        </Fab>
+        <Fab size='small' variant='extended' color='primary'>
+          Small Primary
         </Fab>
       </CardActions>
     </Card>

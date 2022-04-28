@@ -24,10 +24,13 @@ const customtheme = createTheme({
       MuiFab: {
         styleOverrides: {
           // Name of the slot
-          root: {
+          secondary: {
             // Some CSS
             fontSize: '1rem',
             BackgroundColor: 'red',
+            '&:hover': {
+              color: 'green',
+            },
           },
         },
       },
