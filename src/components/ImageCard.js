@@ -27,10 +27,10 @@ const ImageCard = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size='small' variant='contained'>
+        <Button size='Big' variant='contained'>
           Share
         </Button>
-        <Fab size='small'>Learn More</Fab>
+        <Fab size='large'>Learn More</Fab>
         <Fab size='small' variant='extended' aria-label='add' color='secondary'>
           Learn More
         </Fab>
