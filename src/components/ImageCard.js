@@ -11,11 +11,11 @@ import room from '../assets/images/room.png';
 
 const ImageCard = () => {
   return (
-    <Card sx={{ maxWidth: 345, margin: '10px 80px' }}>
+    <Card sx={{ maxWidth: 345, mt: 4, ml: 5 }}>
       <CardMedia component='img' alt='green iguana' height='140' image={room} />
       <CardContent>
         <Typography gutterBottom variant='h5' component='div'>
-          Lizard
+          ROOM
         </Typography>
         <Typography variant='body2' color='text.secondary'>
           The printing of a room description is a more delicate business than it
